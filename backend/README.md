@@ -148,4 +148,4 @@ To ensure the reliability and correctness of the backend services:
 Contributions to the FriendPlanner backend are highly encouraged! Please adhere to Kotlin best practices and ensure comprehensive test coverage. Refer to the main `CONTRIBUTING.md` for general guidelines.
 
 ## License
-This backend project is open-sourced under the [Your Chosen License]. See the main [LICENSE.md](../LICENSE.md) file for full details.
+This backend project is open-sourced under the [Your Chosen License].
