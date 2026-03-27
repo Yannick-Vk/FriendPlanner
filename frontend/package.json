@@ -11,7 +11,10 @@
     "type-check": "vue-tsc --build"
   },
   "dependencies": {
+    "@ark-ui/vue": "^5.35.0",
+    "@tailwindcss/vite": "^4.2.2",
     "pinia": "^3.0.4",
+    "tailwindcss": "^4.2.2",
     "vue": "^3.5.30"
   },
   "devDependencies": {
