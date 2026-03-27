@@ -16,10 +16,10 @@ const sliderValue = ref([40])
         <Slider.ValueText class="text-lg font-medium" />
       </div>
       <Slider.Control class="relative flex items-center h-5 pr-2">
-        <Slider.Track class="bg-gray-300 h-1 flex-grow rounded-full">
+        <Slider.Track class="bg-gray-300 h-1 grow rounded-full">
           <Slider.Range class="bg-blue-500 h-full rounded-full" />
         </Slider.Track>
-        <Slider.Thumb :index="0" class="w-[18px] h-[18px] bg-white rounded-full shadow border
+        <Slider.Thumb :index="0" class="w-4.5 h-4.5 bg-white rounded-full shadow border
         border-gray-400 cursor-pointer absolute  focus-visible:outline-none focus-visible:outline-blue-500
         focus-visible:outline-2 focus-visible:outline-offset-2" />
       </Slider.Control>
