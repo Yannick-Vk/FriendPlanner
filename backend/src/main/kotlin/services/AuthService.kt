@@ -1,8 +1,17 @@
 package xyz.mitzie.services
 
-fun login() {}
+import xyz.mitzie.dto.LoginRequest
+import xyz.mitzie.dto.LoginResponse
+import xyz.mitzie.dto.RegisterRequest
+import xyz.mitzie.dto.RegisterResponse
 
-fun register() {}
+fun login(request: LoginRequest): LoginResponse {
+    return LoginResponse()
+}
+
+fun register(request: RegisterRequest): RegisterResponse {
+    return RegisterResponse()
+}
 
 fun getUserData() {}
 
